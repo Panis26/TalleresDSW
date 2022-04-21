@@ -2,10 +2,10 @@ import { Serie } from './claseSerie.js';
 
 export const series = [
     new Serie (1,"Breaking Bad","AMC", 5,"Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer" ,
-    "https://www.amc.com/shows/breaking-bad","https://i.imgur.com/GGje0vc.jpg") ,
+    "https://www.amc.com/shows/breaking-bad","https://th.bing.com/th/id/R.0796faca786c6bccdc7fcd7a14dc1f24?rik=bbHKOLAXFZlP6A&riu=http%3a%2f%2fes.web.img3.acsta.net%2fpictures%2f18%2f04%2f04%2f22%2f52%2f3191575.jpg&ehk=Qxm0RaLEY01cyd9GJtsIM4F4EYhhhgFSL3W9%2fc7RkNA%3d&risl=&pid=ImgRaw&r=0") ,
     
     new Serie (2,"Orange Is the New Black", "Netflix", 6, "The series begins revolving around Piper Chapman, a woman in her thirties living in New York City who is sentenced to 15 months in Litchfield Penitentiary", 
-    "https://www.netflix.com/co/title/70242311","https://i.imgur.com/EvKe48G.jpg"),
+    "https://www.netflix.com/co/title/70242311",""),
     
     new Serie (3, "Game of Thrones","HBO", 7, "American fantasy drama", "https://www.hbo.com/game-of-thrones",
       "https://i.imgur.com/TDCEV1S.jpg"),
