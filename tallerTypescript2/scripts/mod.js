@@ -30,7 +30,7 @@ function mostrarCard() {
 }
 function renderDetail(laSerie) {
     var cardElement = document.createElement("div");
-    cardElement.innerHTML = "<div class = \"card\" style = \"width: 25rem;\">\n                            <img class = \"card-img-top\" src =\"".concat(laSerie.img, "\"alt=\"Card image cap\">\n                            <div class = \"card-body\">\n                            <h5 class = \"card-tittle\">").concat(laSerie.name, "</h5>\n                            <p class = \"card-text\">").concat(laSerie.info, "</p>\n                            <a href=\"").concat(laSerie.link, "\">").concat(laSerie.link, "</a>\n                            </div></div>");
+    cardElement.innerHTML = "<div class = \"card\" style = \"width: 24rem;\">\n                            <img class = \"card-img-top\" src =\"".concat(laSerie.img, "\"alt=\"Card image cap\">\n                            <div class = \"card-body\">\n                            <h5 class = \"card-tittle\">").concat(laSerie.name, "</h5>\n                            <p class = \"card-text\">").concat(laSerie.info, "</p>\n                            <a href=\"").concat(laSerie.link, "\">").concat(laSerie.link, "</a>\n                            </div></div>");
     detailDiv.appendChild(cardElement);
     detailDiv.replaceChild(cardElement, detailDiv.childNodes[0]);
 }
