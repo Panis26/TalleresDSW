@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row" style="background-color: rgb(0, 195, 255);">
+
+      <h1>
+          <img src="https://icons.iconarchive.com/icons/softskin/series-folder/48/Folder-TV-Disney-icon.png"
+              class="img-fluid" alt="Responsive image" >
+          TV Series
+      </h1>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Channel</th>
+                  <th scope="col">Seasons</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let s of series">
+                  <td>
+                    <dd>{{s.id}}</dd>
+                  </td>
+                  <td>
+                    <dd>{{s.name}}</dd>
+                  </td>
+                  <td>
+                    <dd>{{s.channel}}</dd>
+                  </td>
+                  <td>
+                    <dd>{{s.seasons}}</dd>
+                  </td>
+                </tr>
+              </tbody>
+              <td>
+                <dd> Seasons average: {{avg}}</dd>
+              </td>
+            </table>
+      </div>
+      <div class="col">
+      </div>
+  </div>
+</div>
